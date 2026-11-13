@@ -47,25 +47,24 @@ This repository contains the configurations, themes, and assets behind my setup.
 > Don't blindly copy everything without checking the configuration paths first.
 >
 > **Remember to change the username in the configuration files.**
->
-> For example, in my Fastfetch configuration:
->
-> ```json
-> "source": "/home/prawalcachy/Pictures/hk.png"
-> ```
->
-> `prawalcachy` is my Linux username. Replace it with your own:
->
-> ```json
-> "source": "/home/your_username/Pictures/hk.png"
-> ```
->
-> Also check other hardcoded paths before applying the configurations.
+
+For example, in my Fastfetch configuration:
+
+```json
+"source": "/home/prawalcachy/Pictures/hk.png"
+```
+
+`prawalcachy` is my Linux username. Replace it with your own:
+
+```json
+"source": "/home/your_username/Pictures/hk.png"
+```
+
+Also check other hardcoded paths before applying the configurations.
 
 ## A Small Tip
 
 > [!TIP]
-
 > Take whatever you like, change the colors, adjust the modules, rearrange things, and make it yours. These are personal configurations, not strict rules for how a Linux desktop should look.
 
 ---
@@ -73,5 +72,5 @@ This repository contains the configurations, themes, and assets behind my setup.
 <p align="center">
   Made for my own desktop, shared for anyone who finds it useful.
   <br><br>
-  
+ 
 </p>
