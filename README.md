@@ -1,6 +1,5 @@
 # KDE Customization
 
-
 <p align="center">
   A simple collection of my personal Linux desktop configurations.
   <br>
@@ -35,50 +34,44 @@ This repository contains the configurations, themes, and assets behind my setup.
 
 ## Compatibility
 
-<blockquote>
-  <b>Note:</b> These configurations are primarily customized for my KDE Plasma environment on CachyOS. Your experience may vary depending on your distribution, desktop environment, and installed packages.
-</blockquote>
-
-Some configurations might work perfectly fine on other desktop environments, while others may require a few adjustments.
-
-In particular, **Waybar, Kitty, and Fastfetch** may need some changes depending on your setup. I haven't used many desktop environments myself, so I can't guarantee compatibility or provide accurate instructions for every DE.
-
-Feel free to modify things to suit your own environment.
+> [!NOTE]
+> These configurations are primarily customized for my KDE Plasma environment on CachyOS. Your experience may vary depending on your distribution, desktop environment, and installed packages.
+>
+> Some configurations might work perfectly fine on other desktop environments, while others may require a few adjustments. In particular, **Waybar, Kitty, and Fastfetch** may need some changes.
+>
+> I haven't used many desktop environments myself, so I can't guarantee compatibility with every DE.
 
 ## Before Using
 
-<blockquote>
-  <b>Warning:</b> Don't blindly copy everything without checking the configuration paths first.
-</blockquote>
-
-One important thing: **change the username in the configuration files.**
-
-For example, in my Fastfetch configuration:
-
-```json
-"source": "/home/prawalcachy/Pictures/hk.png"
-```
-
-`prawalcachy` is my Linux username. You'll need to replace it with your own username and make sure the image exists at that location.
-
-For example:
-
-```json
-"source": "/home/your_username/Pictures/hk.png"
-```
-
-Also check other hardcoded paths before applying the configurations.
+> [!WARNING]
+> Don't blindly copy everything without checking the configuration paths first.
+>
+> **Remember to change the username in the configuration files.**
+>
+> For example, in my Fastfetch configuration:
+>
+> ```json
+> "source": "/home/prawalcachy/Pictures/hk.png"
+> ```
+>
+> `prawalcachy` is my Linux username. Replace it with your own:
+>
+> ```json
+> "source": "/home/your_username/Pictures/hk.png"
+> ```
+>
+> Also check other hardcoded paths before applying the configurations.
 
 ## A Small Tip
 
-You don't have to use the entire setup.
+> [!TIP]
 
-Take whatever you like, change the colors, adjust the modules, rearrange things, and make it yours. These are personal configurations.
+> Take whatever you like, change the colors, adjust the modules, rearrange things, and make it yours. These are personal configurations, not strict rules for how a Linux desktop should look.
 
 ---
 
 <p align="center">
   Made for my own desktop, shared for anyone who finds it useful.
   <br><br>
-  <sub>Built around CachyOS + KDE Plasma.</sub>
+  
 </p>
